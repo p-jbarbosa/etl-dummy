@@ -1,0 +1,6 @@
+{
+    "primaryKey": "",
+    "mainTable": "legalhold_list",
+    "tableToCompare": "legalhold_correct",
+    "fieldsToCompare": "LegalHold,Flag"
+}
