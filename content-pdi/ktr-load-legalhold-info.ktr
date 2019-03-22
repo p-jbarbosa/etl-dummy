@@ -688,7 +688,7 @@
     <length>Characters</length>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>${P_ETL_INPUT_FILES}/legalHold-info.csv</name>
+      <name>${ETL_INPUT_DIR}/legalHold-info.csv</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -794,9 +794,9 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${P_ETL_OUTPUT_FILES}/legalhold_invalid</name>
+      <name>${ETL_OUTPUT_DIR}/LegalHold/legalhold_invalid</name>
       <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <do_not_open_new_file_init>Y</do_not_open_new_file_init>
       <extention>csv</extention>
       <append>Y</append>
       <split>N</split>

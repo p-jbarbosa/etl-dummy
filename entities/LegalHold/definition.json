@@ -2,5 +2,10 @@
     "primaryKey": "",
     "mainTable": "legalhold_list",
     "tableToCompare": "legalhold_correct",
-    "fieldsToCompare": "LegalHold,Flag"
+    "fieldsToCompare": "LegalHold,Flag",
+    "produces-output-files": "Y",
+    "test-information":{
+        "prepare-environment-destructive": "Y",
+        "outputfile-extension-to-delete": "csv"
+    }
 }

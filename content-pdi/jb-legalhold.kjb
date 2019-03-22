@@ -388,7 +388,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${P_ETL_CODE_FOLDER}/ktr-load-legalhold-info.ktr</filename>
+      <filename>${ETL_CODE_DIR}/ktr-load-legalhold-info.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -420,7 +420,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>400</xloc>
+      <xloc>416</xloc>
       <yloc>176</yloc>
       <attributes_kjc/>
     </entry>
@@ -432,7 +432,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>560</xloc>
+      <xloc>656</xloc>
       <yloc>176</yloc>
       <attributes_kjc/>
     </entry>
