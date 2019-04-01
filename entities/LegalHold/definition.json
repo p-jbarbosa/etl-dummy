@@ -1,8 +1,13 @@
 {
+    "connections": {
+        "etl":"legalHold",
+        "tests": "legalHold_ETF"
+    },
     "primaryKey": "",
     "mainTable": "legalhold_list",
     "tableToCompare": "legalhold_correct",
     "fieldsToCompare": "LegalHold,Flag",
+    "fieldsToOrderBy": "LegalHold",
     "produces-output-files": "Y",
     "test-information":{
         "prepare-environment-destructive": "Y",
