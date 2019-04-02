@@ -8,8 +8,8 @@
     "tableToCompare": "legalhold_correct",
     "fieldsToCompare": "LegalHold,Flag",
     "fieldsToOrderBy": "LegalHold",
-    "produces-output-files": "Y",
-    "test-information":{
+    "producesOutputFiles": "Y",
+    "testInformation":{
         "prepare-environment-destructive": "Y",
         "outputfile-extension-to-delete": "csv"
     }

@@ -1,4 +1,4 @@
 objectContainer;objectToExecute;objectParams;expectedStatus
-etl-test-framework/utilities;kjb-prepare-test-environment.kjb;-param:P_ENTITY=LegalHold;0
+etl-test-framework/utilities;kjb-prepare-test-environment.kjb;-param:P_PROJECT_NAME=etl-dummy -param:P_ENTITY=LegalHold;0
 etl-dummy/content-pdi;jb-legalhold.kjb;-param:P_SCDA_TO_DISCARD=SCDA-SBP;0
-etl-test-framework/execution;kjb-execute-test.kjb;-param:P_ENTITY=LegalHold -param:P_TEST_OPERATION=compare -param:P_TEST_ELEMENT=table-to-table;1
+etl-test-framework/execution;kjb-execute-test.kjb;-param:P_PROJECT_NAME=etl-dummy -param:P_ENTITY=LegalHold -param:P_TEST_OPERATION=compare -param:P_TEST_ELEMENT=table-to-table;1
